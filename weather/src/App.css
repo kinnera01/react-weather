@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.info{
+  background-image: url("https://previews.123rf.com/images/_ig0rzh_/_ig0rzh_1506/_ig0rzh_150600003/40960466-belle-nature-background-quatre-saisons-de-l-ann%C3%A9e-le-collage-des-images-%C3%A9clatantes-de-temps-diff%C3%A9rente-.jpg");
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body{
+  background-image: url("https://visualwilderness.com/wp-content/uploads/2014/12/Heavens-Gate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  color:white;
+  font-size: 18px;
+  font-weight: 200;
+}
+h1{
+  color:coral;
+  font-size: 80px
+}
