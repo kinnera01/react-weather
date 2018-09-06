@@ -2,7 +2,7 @@
   "name": "react-weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kinnera01.github.io/reactweather",
+  "homepage": "http://kinnera01.github.io/reactweather/weather",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
