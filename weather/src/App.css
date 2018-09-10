@@ -42,3 +42,12 @@ h1{
   color:coral;
   font-size: 80px
 }
+button{
+  border-radius: 8px;
+  border-color: coral;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  opacity:0.8;
+}
+

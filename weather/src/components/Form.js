@@ -10,6 +10,7 @@ class Form extends React.Component {
       address:""
     }
     handleChange = address => {
+
       this.setState({ address });
 
     };
@@ -17,9 +18,13 @@ class Form extends React.Component {
     handleSelect = address => {
     
       geocodeByAddress(address)
+     // console.log(address)
         .then(results => getLatLng(results[0]))
+        
         .then(latLng => console.log('Success', latLng))
         .catch(error => console.error('Error', error));
+      // console.log(results)
+      //  this.setState({ results });
     };
     render(){
 return(
@@ -27,7 +32,7 @@ return(
         value={this.state.address}
         onChange={this.handleChange}
         onSelect={this.handleChange}
-
+       // searchOptions={{ types: ['locality', 'country'] }}
       >
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
@@ -47,7 +52,7 @@ return(
               // // inline style for demonstration purpose
               const style = suggestion.active
                 ? { Color: 'white', cursor: 'pointer', fontSize:"20px" }
-                : { backgroundColor: 'transparent', color:"white", fontSize:"20px",opacity:"0.5", cursor: 'pointer' };
+                : { backgroundColor: 'transparent', color:"black", fontSize:"20px",opacity:"0.5", cursor: 'pointer' };
               return (
                 <div
                   {...getSuggestionItemProps(suggestion, {

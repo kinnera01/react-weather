@@ -86,7 +86,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [Building for Relative Paths](#building-for-relative-paths)
   - [Azure](#azure)
   - [Firebase](#firebase)
-  - [GitHub Pages](#github-pages)
+  - [GitHubGitHub Pages](#github-pages)
   - [Heroku](#heroku)
   - [Netlify](#netlify)
   - [Now](#now)
